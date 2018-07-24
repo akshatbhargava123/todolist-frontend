@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import PluggableTodo from './components/PluggableTodo/PluggableTodo';
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello World!</h1>
+      <PluggableTodo listId={1} />
     );
   }
 }
